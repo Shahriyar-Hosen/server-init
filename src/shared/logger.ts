@@ -15,8 +15,7 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
   const h = (hr > 12 && hr - 12) || hr;
   const amPm = hr <= 12 ? "AM" : "PM";
 
-  return `
-  ${date.toDateString()} - ${h}:${min}:${sec} ${amPm} - ⁅${label}⁆
+  return `${date.toDateString()} - ${h}:${min}:${sec} ${amPm} - ⁅${label}⁆
   ${level}: ${message}`;
 });
 
@@ -24,7 +23,7 @@ const logger = createLogger({
   level: "info",
   format: combine(
     label({
-      label: "PH♻️",
+      label: "As♻️",
     }),
     timestamp(),
     myFormat
@@ -51,7 +50,7 @@ const errLogger = createLogger({
   level: "error",
   format: combine(
     label({
-      label: "PH♻️",
+      label: "AS♻️",
     }),
     timestamp(),
     myFormat
