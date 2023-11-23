@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 1
+    },
+    "auditLog": "D:\\Development\\Project\\Server\\server-init\\logs\\winston\\errors\\.600e041abfa149b016bcf043cb0fe82463b45fd0-audit.json",
+    "files": [
+        {
+            "date": 1700743668409,
+            "name": "D:\\Development\\Project\\Server\\server-init\\logs\\winston\\errors\\phu-2023-11-23-18-error.log",
+            "hash": "2b849efeee786681388a770efb89bf0d892a1aee11538e41f3fb55c2276d580b"
+        }
+    ],
+    "hashType": "sha256"
+}
